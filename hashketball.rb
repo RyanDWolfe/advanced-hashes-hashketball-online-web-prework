@@ -159,7 +159,8 @@ def team_names
 end
 
 def player_numbers(team_name)
-
+  players = players(team_name)
+  players.fetch(:number)
 end
 
 def player_stats(player)
