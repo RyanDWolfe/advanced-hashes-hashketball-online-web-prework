@@ -117,10 +117,21 @@ def game_hash
   }
 end
 
-def num_points_scored (player)
-players.fetch(player)# determine what team the player is on
-# drill to right level of hash
-# send correct request based on data type for points scored
+def teams
+  game_hash.values
+end
+
+def players
+  game_hash[:home][:players].merge(game_hash[:away][:players])
+end
+
+def find_the_player(name)
+  players.fetch(name)
+end
+
+def num_points_scored(name)
+  player = find_the_player(name)
+  player.fetch(:points)
 end
 
 def shoe_size(player)
