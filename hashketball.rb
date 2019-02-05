@@ -14,14 +14,21 @@ hashketball = {
     :blocks => " ",
     :slam_dunks => " "
     }
-
-}
-
-
-, :away
-
-
-
+  }, 
+:away => {
+  :team_name => " ",
+  :colors => [""],
+  :players => {
+    :number => " ",
+    :shoe => " ",
+    :points => " ",
+    :rebounds => " ",
+    :assists => " ",
+    :steals => " ",
+    :blocks => " ",
+    :slam_dunks => " "
+    }
+  }
 }
 
 
