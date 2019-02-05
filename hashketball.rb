@@ -119,7 +119,7 @@ end
 
 # return lists of teams and players "know what we are working with" to use later
 
-def team_names
+def teams_names
   game_hash.values
 end
 
