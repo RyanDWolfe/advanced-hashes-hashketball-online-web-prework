@@ -139,8 +139,8 @@ def shoe_size(name)
   player.fetch(:shoe)
 end
 
-def team_colors(team_colors)
-
+def team_colors(team)
+team[:colors]
 end
 
 def team_names
