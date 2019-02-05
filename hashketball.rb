@@ -118,7 +118,9 @@ def game_hash
 end
 
 def num_points_scored (player)
-
+players.fetch(player)# determine what team the player is on
+# drill to right level of hash
+# send correct request based on data type for points scored
 end
 
 def shoe_size(player)
