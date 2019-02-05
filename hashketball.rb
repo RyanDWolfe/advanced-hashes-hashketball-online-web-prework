@@ -171,5 +171,5 @@ def player_biggest_shoe_size
 end
 
 def big_shoe_rebounds
-shoe_sizes = players[:shoe].collect {|x|x > 1}
+  player_biggest_shoe_size.fetch(:rebounds)
 end
