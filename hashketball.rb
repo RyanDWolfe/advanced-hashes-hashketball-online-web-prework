@@ -14,27 +14,17 @@ hashketball = {
     :blocks => " ",
     :slam_dunks => " "
     }
-  
+
 }
 
 
 , :away
 
 
-  
+
 }
 
 
 
 
 end
-
-
-
-
-
-
-
-
-
-
