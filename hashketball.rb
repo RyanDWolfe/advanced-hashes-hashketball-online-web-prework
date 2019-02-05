@@ -119,7 +119,7 @@ end
 
 # return lists of teams and players "know what we are working with" to use later
 
-def teams
+def team_names
   game_hash.values
 end
 
@@ -130,7 +130,7 @@ end
 # find specific teams or players and return their values to use later
 
 def find_the_team(team_name)
-  teams.find {|team| team.fetch(:team_name) == team_name}
+  team_names.find {|team| team.fetch(:team_name) == team_name}
 end
 
 def find_the_player(name)
