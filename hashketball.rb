@@ -119,7 +119,7 @@ end
 
 # return lists of teams and players "know what we are working with" to use later
 
-def teams
+def teams_names
   game_hash.values
 end
 
@@ -152,10 +152,6 @@ end
 def team_colors(team_name)
   team = find_the_team(team_name)
   team.fetch(:colors)
-end
-
-def team_names
-
 end
 
 def player_numbers(team_name)
