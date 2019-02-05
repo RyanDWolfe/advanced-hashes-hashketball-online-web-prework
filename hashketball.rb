@@ -155,7 +155,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  teams.map{|t| t.fetch(:team_name)}
+  teams.collect {|x| x.fetch(:team_name)}
 end
 
 def player_numbers(team_name)
