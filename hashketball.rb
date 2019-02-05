@@ -117,15 +117,15 @@ def game_hash
   }
 end
 
-def num_points_scored
+def num_points_scored (team)
 
 end
 
-def shoe_size
+def shoe_size(player)
 
 end
 
-def team_colors
+def team_colors(team_colors)
 
 end
 
@@ -133,11 +133,11 @@ def team_names
 
 end
 
-def player_numbers
+def player_numbers(team_name)
 
 end
 
-def player_stats
+def player_stats(player)
 
 end
 
